@@ -8,4 +8,7 @@ varA = varB;
 varB = varC;
 varC = varTemp;
 
+// Ou [varA, varB, varC] = [varB, varC, varA]
+
+
 console.log(varA, varB, varC)
